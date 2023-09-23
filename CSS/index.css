@@ -8,3 +8,33 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
+
+.mLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.lText{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.cSvg{
+    filter: invert(100%);
+}
+
+.aText{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.selector{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
